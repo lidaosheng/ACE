@@ -103,7 +103,7 @@ public class BarChart implements AChartAbstract {
         renderer.setYLabels(10);
         renderer.setXLabelsColor(Color.RED);
         //X标签角度
-        //SS
+        //SS是是是
 //        renderer.setXLabelsAngle(-90);
         renderer.setYLabelsColor(0,Color.BLACK);
         // 刻度线与X轴坐标文字左侧对齐
