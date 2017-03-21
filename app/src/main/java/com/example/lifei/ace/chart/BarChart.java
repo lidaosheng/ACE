@@ -99,7 +99,7 @@ public class BarChart implements AChartAbstract {
         renderer.getSeriesRendererAt(0).setDisplayChartValues(true);
         // X轴的坐标个数  (这样不显示横坐标)
         renderer.setXLabels(10);
-        // Y轴的坐标个数
+        // Y轴的坐标个数S
         renderer.setYLabels(10);
         renderer.setXLabelsColor(Color.RED);
         //X标签角度
