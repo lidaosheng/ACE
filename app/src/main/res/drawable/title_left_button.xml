@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color= "#eee" />
+            <size android:height="30dp"
+                android:width="61dp"/>
+            <corners
+                android:topLeftRadius="4dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="4dp"
+                android:bottomRightRadius="0dp" />
+            <stroke
+                android:width="1dip"
+                android:color="#eee" />
+        </shape>
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color= "#457DD7" />
+            <size android:height="30dp"
+                android:width="61dp"/>
+            <corners
+                android:topLeftRadius="4dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="4dp"
+                android:bottomRightRadius="0dp" />
+            <stroke
+                android:width="1dip"
+                android:color="#eee" />
+
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color= "#457DD7" />
+            <size android:height="30dp"
+                android:width="61dp"/>
+            <corners
+                android:topLeftRadius="4dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="4dp"
+                android:bottomRightRadius="0dp" />
+            <stroke
+                android:width="1dip"
+                android:color="#eee" />
+
+        </shape>
+    </item>
+</selector>

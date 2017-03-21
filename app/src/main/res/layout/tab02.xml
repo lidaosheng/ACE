@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab02">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/tab02_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务器数据"
+            android:textSize="16sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button1"/>
+        <Button
+            android:id="@+id/tab02_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本地数据"
+            android:textSize="16sp"
+            android:background="@drawable/button1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tab02_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="第二ss个fragment"/>
+
+
+
+</LinearLayout>

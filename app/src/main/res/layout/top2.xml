@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="67dp"
+    android:background="#457DD7">
+    <TextView
+        android:id="@+id/sbar"
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/sbar"
+        android:layout_centerVertical="true"
+        android:src="@drawable/actionbar_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/photo"
+        android:layout_below="@id/sbar"
+        android:text="HILab"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sbar"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/yunduan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_left_button"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="云端"
+            android:textColor="@drawable/title_font_color" />
+        <RadioButton
+            android:id="@+id/bendi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_right_button"
+            android:button="@null"
+            android:gravity="center"
+            android:text="本地"
+            android:textColor="@drawable/title_font_color" />
+    </RadioGroup>
+
+
+</RelativeLayout>
