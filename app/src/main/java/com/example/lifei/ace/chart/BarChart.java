@@ -67,7 +67,7 @@ public class BarChart implements AChartAbstract {
         //设置网格
        // renderer.setShowGrid(true);
 //        renderer.setShowGridX(true);
-        renderer.setShowCustomTextGrid(true);
+//        renderer.setShowCustomTextGrid(true);
         renderer.setGridColor(Color.rgb(240,240,240));
 //        renderer.setMarginsColor(Color.TRANSPARENT);//图表的外边界填充颜色
         renderer.setMarginsColor(Color.argb(0x00, 0x01, 0x01, 0x01));//图表的外边界填充颜色
