@@ -27,9 +27,9 @@ public class ChooseChart extends Fragment {
     private View view;
     private GridView gridView;
     private int[] images = new int[]{
-            R.mipmap.sunglasses,R.mipmap.iphone,R.mipmap.pen,R.mipmap.support,
-            R.mipmap.umbrella,R.mipmap.egg,R.mipmap.bird,R.mipmap.smoke,
-            R.mipmap.duck,R.mipmap.rocket
+            R.mipmap.bar,R.mipmap.line2,R.mipmap.pen,R.mipmap.pie,
+            R.mipmap.area,R.mipmap.egg,R.mipmap.bar3,R.mipmap.bar2,
+            R.mipmap.line1,R.mipmap.box
     };
     private String[] types = {"柱状图","折线图","散点图","饼状图","箱图","待定",
             "待定","待定","待定","待定"
